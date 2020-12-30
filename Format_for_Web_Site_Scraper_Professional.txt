@@ -1,0 +1,56 @@
+I would like a web scraper built from https://www.merriam-webster.com/dictionary. I would like the scraper to take each word from the txt and put it in the url like so, where "WORD" is the word from the txt:
+https://www.merriam-webster.com/dictionary/"WORD"
+Record this word followed by " ---- " in a string called STRING from now on. For the simpletons, that is a space, four hyphens, then another space. After that, notice there will be at least one entry for the word. If there is only one entry for the word, this fact will not be apparent. See https://www.merriam-webster.com/dictionary/incandescent for an example of two entries (an adjective entry and a noun entry). Add the part of speech to STRING and then a new line. STRING should so far be "WORD ---- PART OF SPEECH \n". After you have done that, record all the text from that entry. This text will include all different definitions, examples, etc. If that doesn't make sense, please inquire. Add all of this text to STRING, followed by two new lines ("\n\n"). Do the same for any remaining entries. Once you have covered all of the entries, the last two characters of STRING sould be two newline escape characters. After that, if you look on any definition on Merriam-Webster's web site, you will find a "Did You Know?" section. Please record all of the text under this section. Add it to STRING. Add three newline escape characters to STRING, then move on to the next word. I need " ---- " in between the word and the rest of the word's information to separate either side of the Quizlet cue card. Getting the word's part of speech is for my understanding while studying. Getting the word's definitions is also for my understanding while studying. Separating each entry with an extra newline will make the cue card more readable. I will need the "Did You Know?" section for my understanding as well. If something does not make sense, or there is a hole in my explanation, do not hesitate to let me know.
+
+Below is an example of four words formatted correctly.
+
+If you do not have the .txt of words, please let me know how to send it to you.
+
+
+
+incandescent ---- adjective
+1a: white, glowing, or luminous with intense heat
+b : strikingly bright, radiant, or clear
+c : marked by brilliance especially of expression 
+incandescent wit
+d : characterized by glowing zeal : ARDENT 
+incandescent affection
+2a : of, relating to, or being light produced by incandescence
+b : producing light by incandescence
+
+n.
+: LIGHT BULB sense a
+
+Incandescent came into the English language toward the end of the 18th century, at a time when scientific experiments involving heat and light were being conducted on an increasingly frequent basis. An object that glowed at a high temperature (such as a piece of coal) was "incandescent." By the mid-1800s, the incandescent lamp - a.k.a. the "lightbulb" - had been invented; it contains a filament which gives off light when heated by an electric current. "Incandescent" is the modern offspring of a much older parent, the Latin verb candēre, meaning "to glow." Centuries earlier, the word for another source of light, "candle," was also derived from "candēre."
+
+
+opprobrium ---- noun
+1 : something that brings disgrace
+2a : public disgrace or ill fame that follows from conduct considered grossly wrong or vicious
+Collaborators with the enemy did not escape the opprobrium of the townspeople.
+b : CONTEMPT, REPROACH 
+The bombing of the church was met with widespread opprobrium.
+
+Opprobrium was borrowed into English from Latin in the 17th century. It came from the Latin verb opprobrare, which means "to reproach." That verb in turn came from the noun probrum, meaning "disgraceful act or "reproach." These gave us "opprobrium" as well as its adjective form "opprobrious," which means "scurrilous" or "infamous." One might commit an "opprobrious crime" or be berated with "opprobrious language." "Probrum" gave English another word too, but you might have a little trouble guessing it. It's "exprobrate," an archaic synonym of "censure" or "upbraid."
+
+
+suffrage ---- noun
+1 : a short intercessory prayer usually in a series
+2 : a vote given in deciding a controverted question or electing a person for an office or trust
+3 : the right of voting : FRANCHISE
+also : the exercise of such right
+
+Why would a 17th-century writer warn people that a chapel was only for "private or secret suffrages"? Because in addition to the meanings listed above, "suffrage" has been used since the 14th century to mean "prayer" (especially a prayer requesting divine help or intercession). So how did "suffrage" come to mean "a vote" or "the right to vote"? To answer that, we must look to the word’s Latin ancestor, suffragium, which can be translated as "vote," "support," or "prayer." That term produced descendants in a number of languages, and English picked up its senses of "suffrage" from two different places. We took the "prayer" sense from a Middle French suffragium offspring that emphasized the word’s spiritual aspects, and we elected to adopt the "voting" senses directly from the original Latin.
+
+
+antediluvian ---- adjective
+1 : of or relating to the period before the flood described in the Bible
+2a : made, evolved, or developed a long time ago
+an antediluvian automobile
+that antediluvian relic known as a slide rule
+b : extremely primitive or outmoded
+an antediluvian prejudice
+antediluvian in his politics
+
+Before there was "antediluvian," there were the Latin words ante (meaning "before") and "diluvium" (meaning "flood"). As long ago as 1646, English speakers were using "antediluvian" to describe conditions they believed existed before the great flood described in the biblical account of Noah and the ark. By the early 1700s, the word had come to be used as both an adjective and a noun referring to anything or anyone prodigiously old. Charles Darwin used it to characterize the mighty "antediluvian trees" some prehistoric mammals might have used as a food source, and in his American Notes, Charles Dickens described an elderly lady who informed him, "It is an extremely proud and pleasant thing . . . to be an antediluvian."
+
